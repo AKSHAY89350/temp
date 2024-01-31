@@ -2,8 +2,9 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: "test"
-  annotations:
-    backstage.io/techdocs-ref: dir: .README.md
+annotations:
+  backstage.io/techdocs-ref: dir: .README.md
+
 spec:
   type: service
   owner: user:guest

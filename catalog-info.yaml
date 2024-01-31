@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: "test"
 annotations:
-  backstage.io/techdocs-ref: dir: .README.md
+  backstage.io/techdocs-ref: ""
 
 spec:
   type: service
